@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="g7tSImBMMH7qk1AncjNH">
+    <mxGraphModel dx="1645" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HXKSZjZrFKiwuo33ZXZ6-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Home&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AboutMe &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Hobbies&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Proyects&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Market&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="760" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HXKSZjZrFKiwuo33ZXZ6-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Presentation with transition" vertex="1">
+          <mxGeometry height="130" width="240" x="260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HXKSZjZrFKiwuo33ZXZ6-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Footer&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;copyRight&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Neweg,e,gwe,gw" vertex="1">
+          <mxGeometry height="60" width="760" x="30" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="HXKSZjZrFKiwuo33ZXZ6-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="A&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HXKSZjZrFKiwuo33ZXZ6-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="B" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HXKSZjZrFKiwuo33ZXZ6-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="C" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
