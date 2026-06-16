@@ -1,0 +1,140 @@
+.credentials-hero {
+    min-height: auto;
+    padding: clamp(28px, 6vw, 68px);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 0.42fr);
+    align-items: end;
+    gap: clamp(28px, 5vw, 56px);
+}
+
+.credentials-copy h1 {
+    max-width: 13ch;
+}
+
+.credentials-summary {
+    display: grid;
+    gap: 12px;
+}
+
+.credentials-summary div {
+    padding: 18px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.055);
+}
+
+.credentials-summary span,
+.credential-type,
+.credential-year,
+.credential-card dt {
+    color: var(--accent-strong);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.credentials-summary strong {
+    display: block;
+    margin-top: 6px;
+    color: var(--paper);
+    font-size: 1.08rem;
+}
+
+.certificate-section {
+    margin-top: 26px;
+    padding: clamp(24px, 4vw, 44px);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(18px);
+}
+
+.credential-grid {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.certificate-section:nth-of-type(3) .credential-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.credential-card {
+    min-height: 280px;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.055);
+    transition: transform 200ms ease, background-color 200ms ease, border-color 200ms ease;
+}
+
+.credential-card:hover,
+.credential-card:focus-within {
+    border-color: rgba(245, 179, 92, 0.48);
+    background: rgba(255, 255, 255, 0.09);
+    transform: translateY(-6px);
+}
+
+.credential-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.credential-year {
+    color: var(--muted);
+}
+
+.credential-card h3 {
+    margin-top: 24px;
+    font-size: clamp(1.18rem, 2vw, 1.55rem);
+    line-height: 1.15;
+}
+
+.credential-card p {
+    color: var(--muted);
+}
+
+.credential-card dl {
+    margin: auto 0 0;
+    display: grid;
+    gap: 12px;
+}
+
+.credential-card dl div {
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+}
+
+.credential-card dd {
+    margin: 5px 0 0;
+    color: var(--paper);
+}
+
+.credential-link {
+    width: fit-content;
+    margin-top: auto;
+    padding: 10px 0 0;
+    color: var(--accent-strong);
+    font-weight: 800;
+}
+
+.credential-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .credentials-hero,
+    .credential-grid,
+    .certificate-section:nth-of-type(3) .credential-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .credentials-copy h1 {
+        max-width: 12ch;
+    }
+}

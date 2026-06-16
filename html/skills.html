@@ -3,12 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Certificates | Carles Mora</title>
+    <link rel="stylesheet" href="/css/aboutMeStyle.css">
+    <link rel="stylesheet" href="/css/skillsStyle.css">
+    <script src="/js/skills.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header">
+            <nav aria-label="Main navigation">
+                <a href="index.html" id="meu" aria-label="Go to home">CMJ</a>
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-center" id="main-menu">
+                    <a href="aboutMe.html">About me</a>
+                    <a href="skills.html" class="active">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <a href="proyects.html" class="nav-end">Projects</a>
+            </nav>
+        </header>
 
+        <main>
+            <section class="credentials-hero section-panel reveal" id="top">
+                <div class="credentials-copy">
+                    <p class="eyebrow">Certificates and degrees</p>
+                    <h1>My academic and professional training.</h1>
+                    <p class="hero-text">
+                        A clear place to collect the titles, certificates and courses that show my progress in computer science,
+                        artificial intelligence and cybersecurity.
+                    </p>
+                </div>
+                <div class="credentials-summary" aria-label="Credentials summary">
+                    <div>
+                        <span>Academic</span>
+                        <strong>Degrees</strong>
+                    </div>
+                    <div>
+                        <span>Technical</span>
+                        <strong>Certificates</strong>
+                    </div>
+                    <div>
+                        <span>Current</span>
+                        <strong>Learning path</strong>
+                    </div>
+                </div>
+            </section>
 
-    
+            <section class="certificate-section reveal" aria-labelledby="degrees-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Education</p>
+                    <h2 id="degrees-title">Titles</h2>
+                </div>
+                <div class="credential-grid">
+                    <article class="credential-card">
+                        <div class="credential-meta">
+                            <span class="credential-type">Degree</span>
+                            <span class="credential-year">In progress</span>
+                        </div>
+                        <h3>Computer Science and Artificial Intelligence</h3>
+                        <p>University studies focused on programming, algorithms, data, intelligent systems and software development.</p>
+                        <dl>
+                            <div>
+                                <dt>Institution</dt>
+                                <dd>Add institution</dd>
+                            </div>
+                            <div>
+                                <dt>Status</dt>
+                                <dd>Currently studying</dd>
+                            </div>
+                        </dl>
+                    </article>
+
+                    <article class="credential-card">
+                        <div class="credential-meta">
+                            <span class="credential-type">Title</span>
+                            <span class="credential-year">Year</span>
+                        </div>
+                        <h3>Add your academic title</h3>
+                        <p>Use this card for another diploma, degree or official academic achievement.</p>
+                        <dl>
+                            <div>
+                                <dt>Institution</dt>
+                                <dd>Add institution</dd>
+                            </div>
+                            <div>
+                                <dt>Status</dt>
+                                <dd>Completed</dd>
+                            </div>
+                        </dl>
+                    </article>
+                </div>
+            </section>
+
+            <section class="certificate-section reveal" aria-labelledby="certificates-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Proof of learning</p>
+                    <h2 id="certificates-title">Certificates</h2>
+                </div>
+                <div class="credential-grid">
+                    <article class="credential-card">
+                        <div class="credential-meta">
+                            <span class="credential-type">Certificate</span>
+                            <span class="credential-year">Year</span>
+                        </div>
+                        <h3>Add certificate name</h3>
+                        <p>Short description of what you learned, the tools used and why the certificate matters.</p>
+                        <a class="credential-link" href="#" aria-label="Open certificate">View certificate</a>
+                    </article>
+
+                    <article class="credential-card">
+                        <div class="credential-meta">
+                            <span class="credential-type">Course</span>
+                            <span class="credential-year">Year</span>
+                        </div>
+                        <h3>Add course or specialization</h3>
+                        <p>Use this space for cybersecurity, artificial intelligence, web development or programming training.</p>
+                        <a class="credential-link" href="#" aria-label="Open certificate">View certificate</a>
+                    </article>
+
+                    <article class="credential-card">
+                        <div class="credential-meta">
+                            <span class="credential-type">Workshop</span>
+                            <span class="credential-year">Year</span>
+                        </div>
+                        <h3>Add technical workshop</h3>
+                        <p>Highlight practical training, bootcamps, seminars or hands-on learning experiences.</p>
+                        <a class="credential-link" href="#" aria-label="Open certificate">View certificate</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="contact section-panel reveal" id="contact">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>Want to know more?</h2>
+                    <p>Contact me to ask about my training, projects or learning path.</p>
+                </div>
+                <div class="contact-actions">
+                    <a class="button primary" href="mailto:">Email me</a>
+                    <a class="button secondary" href="https://github.com/Carlesrock" target="_blank" rel="noreferrer">GitHub</a>
+                    <a class="button secondary" href="https://www.linkedin.com/in/carles-mora-javaloyes-83a794221/" target="_blank" rel="noreferrer">LinkedIn</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright 2026 - Carles Mora Javaloyes</p>
+            <a href="#top">Back to top</a>
+        </footer>
+    </div>
 </body>
 </html>
